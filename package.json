@@ -1,0 +1,19 @@
+{
+  "name": "appimagelauncher",
+  "version": "1.0.0",
+  "description": "Launched AppImage files and creates a library of them for linux",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron . && exit 0",
+    "build": "tsc"
+  },
+  "keywords": [
+    "Linux",
+    "AppImage"
+  ],
+  "author": "eggsnham07",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^19.0.6"
+  }
+}
